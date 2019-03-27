@@ -16,8 +16,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/smb?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
-    username: smb
-    password: smb123456
+    username:
+    password:
  ##################以下为druid增加的配置###########################
     type: com.alibaba.druid.pool.DruidDataSource
     # 下面为连接池的补充设置，应用到上面所有数据源中
